@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "My awesome project 1",
+        "description": "This is the description of my awesome project",
+        "image": "./src/assets/images/good-bg.png",
+        "link-deployed": "link",
+        "link-repo": "link"
+    },
+    {
+        "id": 2,
+        "title": "My awesome project 2",
+        "description": "This is the description of my awesome project",
+        "image": "./src/assets/images/2.jpg",
+        "link-deployed": "link",
+        "link-repo": "link"
+    },
+    {
+        "id": 3,
+        "title": "My awesome project 3",
+        "description": "This is the description of my awesome project",
+        "image": "./src/assets/images/3.jpg",
+        "link-deployed": "link",
+        "link-repo": "link"
+    },
+    {
+        "id": 4,
+        "title": "My awesome project 4",
+        "description": "This is the description of my awesome project",
+        "image": "./src/assets/images/4.jpg",
+        "link-deployed": "link",
+        "link-repo": "link"
+    },
+    {
+        "id": 5,
+        "title": "My awesome project 5",
+        "description": "This is the description of my awesome project",
+        "image": "./src/assets/images/5.gif",
+        "link-deployed": "link",
+        "link-repo": "link"
+    },
+    {
+        "id": 6,
+        "title": "My awesome project 6",
+        "description": "This is the description of my awesome project",
+        "image": "./src/assets/images/6.jpg",
+        "link-deployed": "link",
+        "link-repo": "link"
+    }
+]
