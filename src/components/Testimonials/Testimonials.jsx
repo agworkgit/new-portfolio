@@ -20,7 +20,7 @@ const Testimonials = () => {
                 grabCursor={true}
                 slidesPerView={2}
                 spaceBetween={24}
-                loop={true}
+                // loop={true}
                 breakpoints={{
                     350: {
                         slidesPerView: 1
