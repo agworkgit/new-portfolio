@@ -10,6 +10,8 @@ import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Services from './components/Services/Services';
 import Qualification from './components/Qualification/Qualification';
+import Testimonials from './components/Testimonials/Testimonials';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Skills />
       <Services />
       <Qualification />
+      <Testimonials />
+      <Contact />
       </main>
       {/* <Router>
         <Routes>

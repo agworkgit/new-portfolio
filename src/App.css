@@ -79,12 +79,11 @@ html {
   scroll-behavior: smooth;
 }
 
+*,
 body, 
 button, 
 input, 
-textarea,
-span,
-div {
+textarea {
   font-family: var(--body-font);
   font-size: var(--r-size);
 }
@@ -94,7 +93,7 @@ body {
   color: var(--text-color);
 }
 
-h1, h2, h3, p {
+h1, h2, h3 {
   font-family: var(--body-font);
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
