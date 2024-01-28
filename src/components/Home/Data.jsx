@@ -1,9 +1,10 @@
 const Data = () => {
     return (
         <div className="home-data">
-            <h1 className="home-title">Alex Grigore</h1>
+            <h1 className="home-title">Hi, nice to meet you! I&apos;m Alex</h1>
             <h3 className="home-subtitle">Front-End Web Developer</h3>
-            <p className="home-description">Im a web developer based in London, and Im very passionate and dedicated to my work.</p>
+            <p className="home-description">I&apos;m a Frontend Web Developer from London (UK). My goal is to develop well designed,
+                functional and accessible websites and web apps that users love.</p>
             <a href="#contact" className="button button-flex">Contact Me 
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--body-color)" className="bi bi-chat-dots" viewBox="0 0 16 16">
             <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>

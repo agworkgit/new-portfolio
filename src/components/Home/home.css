@@ -44,7 +44,7 @@
     height: 1px;
     background-color: var(--text-color);
     left: 0;
-    top: 1rem;
+    top: 0.75rem;
 }
 
 .home-description {

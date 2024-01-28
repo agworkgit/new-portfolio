@@ -12,6 +12,8 @@ import Services from './components/Services/Services';
 import Qualification from './components/Qualification/Qualification';
 import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import BackToTop from './components/BackToTop/BackToTop';
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
           <Route path="/" element={<ProjectGallery />} />
         </Routes>
       </Router> */}
+      <Footer />
+      <BackToTop />
     </div>
   )
 }

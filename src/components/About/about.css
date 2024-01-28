@@ -9,7 +9,8 @@
 }
 
 .about-image {
-    width: 350px;
+    height: 100%;
+    width: auto;
     border-radius: 1.5rem;
     justify-self: center;
 }
