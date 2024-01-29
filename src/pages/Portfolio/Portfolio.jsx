@@ -1,15 +1,17 @@
-import Project from "../components/Project";
-import projectsData from "../data/projects-data.json"
+import "./portfolio.css";
+import Project from "./Project";
+import projectsData from "../../data/projects-data.json"
 
-function ProjectGallery() {
-    // Body
-    return <div>
+const Portfolio = () => {
+    return (
+    <div>
         <div>
             {projectsData.map((project) => {
                 return <Project key={project.id} title={project.title} description={project.description} image={project.image}/>
             })}
         </div>
     </div>
+    )
 }
 
-export default ProjectGallery;
+export default Portfolio;

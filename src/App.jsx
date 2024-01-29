@@ -1,5 +1,5 @@
 // import { useState } from 'react'
-// import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import * as bootstrap from 'bootstrap';
@@ -14,29 +14,39 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import BackToTop from './components/BackToTop/BackToTop';
+import Portfolio from './pages/Portfolio/Portfolio';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <main className='main'>
-      <Home />
-      <About />
-      <Skills />
-      <Services />
-      <Qualification />
-      <Testimonials />
-      <Contact />
-      </main>
-      {/* <Router>
+    <>
+      <Router basename="/new-portfolio/">
+        <Header />
         <Routes>
-          <Route path="/" element={<ProjectGallery />} />
+          <Route index element={
+            <>
+              <Home />
+              <About />
+              <Skills />
+              <Services />
+              <Qualification />
+              <Testimonials />
+              {/* <Contact /> */}
+            </>
+          } />
+          {/* <Route path="/about" element={<About />} /> */}
+          {/* <Route path="/skills" element={<Skills />} /> */}
+          {/* <Route path="/services" element={<Services />} /> */}
+          {/* <Route path="/qualification" element={<Qualification />} /> */}
+          {/* <Route path="/testimonials" element={<Testimonials />} /> */}
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
-      </Router> */}
-      <Footer />
-      <BackToTop />
-    </div>
-  )
+
+        <BackToTop />
+        <Footer />
+      </Router>
+    </>
+  );
 }
 
 export default App

@@ -1,48 +1,48 @@
 [
     {
         "id": 1,
-        "title": "My awesome project 1",
-        "description": "This is the description of my awesome project",
+        "title": "Travel Fanatix",
+        "description": "Donec congue ligula vel bibendum condimentum. Sed vel tempus est. Curabitur et nibh et arcu efficitur tempor. Praesent et semper sapien. Proin feugiat ipsum nec condimentum blandit. Phasellus at tellus sit amet libero viverra aliquam. Fusce quis luctus libero. Quisque purus odio, pellentesque eget mi nec, condimentum venenatis arcu. Cras erat nunc, aliquet in arcu ut, efficitur sollicitudin ex. Suspendisse hendrerit tincidunt enim, sit amet suscipit tellus bibendum vitae. Integer sit amet magna sit amet est pulvinar ultrices. Proin ipsum ipsum, tristique at ornare nec, malesuada non nisi.",
         "image": "./src/assets/images/good-bg.png",
         "link-deployed": "link",
         "link-repo": "link"
     },
     {
         "id": 2,
-        "title": "My awesome project 2",
-        "description": "This is the description of my awesome project",
+        "title": "Professional Readme Generator",
+        "description": "Donec congue ligula vel bibendum condimentum. Sed vel tempus est. Curabitur et nibh et arcu efficitur tempor. Praesent et semper sapien. Proin feugiat ipsum nec condimentum blandit. Phasellus at tellus sit amet libero viverra aliquam. Fusce quis luctus libero. Quisque purus odio, pellentesque eget mi nec, condimentum venenatis arcu. Cras erat nunc, aliquet in arcu ut, efficitur sollicitudin ex. Suspendisse hendrerit tincidunt enim, sit amet suscipit tellus bibendum vitae. Integer sit amet magna sit amet est pulvinar ultrices. Proin ipsum ipsum, tristique at ornare nec, malesuada non nisi.",
         "image": "./src/assets/images/2.jpg",
         "link-deployed": "link",
         "link-repo": "link"
     },
     {
         "id": 3,
-        "title": "My awesome project 3",
-        "description": "This is the description of my awesome project",
+        "title": "Team Generator",
+        "description": "Donec congue ligula vel bibendum condimentum. Sed vel tempus est. Curabitur et nibh et arcu efficitur tempor. Praesent et semper sapien. Proin feugiat ipsum nec condimentum blandit. Phasellus at tellus sit amet libero viverra aliquam. Fusce quis luctus libero. Quisque purus odio, pellentesque eget mi nec, condimentum venenatis arcu. Cras erat nunc, aliquet in arcu ut, efficitur sollicitudin ex. Suspendisse hendrerit tincidunt enim, sit amet suscipit tellus bibendum vitae. Integer sit amet magna sit amet est pulvinar ultrices. Proin ipsum ipsum, tristique at ornare nec, malesuada non nisi.",
         "image": "./src/assets/images/3.jpg",
         "link-deployed": "link",
         "link-repo": "link"
     },
     {
         "id": 4,
-        "title": "My awesome project 4",
-        "description": "This is the description of my awesome project",
+        "title": "Geolocation Weather Forecast App",
+        "description": "Donec congue ligula vel bibendum condimentum. Sed vel tempus est. Curabitur et nibh et arcu efficitur tempor. Praesent et semper sapien. Proin feugiat ipsum nec condimentum blandit. Phasellus at tellus sit amet libero viverra aliquam. Fusce quis luctus libero. Quisque purus odio, pellentesque eget mi nec, condimentum venenatis arcu. Cras erat nunc, aliquet in arcu ut, efficitur sollicitudin ex. Suspendisse hendrerit tincidunt enim, sit amet suscipit tellus bibendum vitae. Integer sit amet magna sit amet est pulvinar ultrices. Proin ipsum ipsum, tristique at ornare nec, malesuada non nisi.",
         "image": "./src/assets/images/4.jpg",
         "link-deployed": "link",
         "link-repo": "link"
     },
     {
         "id": 5,
-        "title": "My awesome project 5",
-        "description": "This is the description of my awesome project",
+        "title": "JavaScript Quiz Web App",
+        "description": "Donec congue ligula vel bibendum condimentum. Sed vel tempus est. Curabitur et nibh et arcu efficitur tempor. Praesent et semper sapien. Proin feugiat ipsum nec condimentum blandit. Phasellus at tellus sit amet libero viverra aliquam. Fusce quis luctus libero. Quisque purus odio, pellentesque eget mi nec, condimentum venenatis arcu. Cras erat nunc, aliquet in arcu ut, efficitur sollicitudin ex. Suspendisse hendrerit tincidunt enim, sit amet suscipit tellus bibendum vitae. Integer sit amet magna sit amet est pulvinar ultrices. Proin ipsum ipsum, tristique at ornare nec, malesuada non nisi.",
         "image": "./src/assets/images/5.gif",
         "link-deployed": "link",
         "link-repo": "link"
     },
     {
         "id": 6,
-        "title": "My awesome project 6",
-        "description": "This is the description of my awesome project",
+        "title": "Dragon Repeller - RPG Game",
+        "description": "Donec congue ligula vel bibendum condimentum. Sed vel tempus est. Curabitur et nibh et arcu efficitur tempor. Praesent et semper sapien. Proin feugiat ipsum nec condimentum blandit. Phasellus at tellus sit amet libero viverra aliquam. Fusce quis luctus libero. Quisque purus odio, pellentesque eget mi nec, condimentum venenatis arcu. Cras erat nunc, aliquet in arcu ut, efficitur sollicitudin ex. Suspendisse hendrerit tincidunt enim, sit amet suscipit tellus bibendum vitae. Integer sit amet magna sit amet est pulvinar ultrices. Proin ipsum ipsum, tristique at ornare nec, malesuada non nisi.",
         "image": "./src/assets/images/6.jpg",
         "link-deployed": "link",
         "link-repo": "link"

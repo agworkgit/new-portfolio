@@ -1,61 +1,62 @@
 import { useState } from "react";
-import "./header.css"
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+import "./header.css";
 
 const Header = () => {
-    // Change Background Header
-    window.addEventListener("scroll", function () {
-        const header = document.querySelector(".header");
-        (this.scrollY >= 80) 
-        ? header.classList.add("scroll-header") 
-        : header.classList.remove("scroll-header");
-    })
     // Toggle Menu
     const [Toggle, showMenu] = useState(false);
-    const [activeNav, setActiveNav] = useState("#home");
+
     return (
         <header className="header">
             <nav className="nav container">
-                <a href="index.html" className="nav-logo">Alex Grigore</a>
+                <Link to="/" smooth={true} duration={500} className="nav-logo">Alex Grigore</Link>
 
                 <div className={Toggle ? "nav-menu show-menu" : "nav-menu"}>
                     <ul className="nav-list">
                         <li className="nav-item">
-                            <a href="#home" className={activeNav === "#home" ? "nav-link active-link" : "nav-link"} onClick={() => setActiveNav("#home")}>
+                            <Link to="/" smooth={true} duration={500} className="nav-link" onClick={() => showMenu(false)}>
                                 <i className="bi bi-house nav-icon"></i> Home
-                            </a>
+                            </Link>
                         </li>
 
                         <li className="nav-item">
-                            <a href="#about" className={activeNav === "#about" ? "nav-link active-link" : "nav-link"} onClick={() => setActiveNav("#about")}>
+                            <HashLink to="#about" smooth={true} duration={500} className="nav-link" onClick={() => showMenu(false)}>
                                 <i className="bi bi-person-circle nav-icon"></i> About
-                            </a>
+                            </HashLink>
                         </li>
 
                         <li className="nav-item">
-                            <a href="#skills" className={activeNav === "#skills" ? "nav-link active-link" : "nav-link"} onClick={() => setActiveNav("#skills")}>
+                            <HashLink to="#skills" smooth={true} duration={500} className="nav-link" onClick={() => showMenu(false)}>
                                 <i className="bi bi-tools nav-icon"></i> Skills
-                            </a>
+                            </HashLink>
                         </li>
 
                         <li className="nav-item">
-                            <a href="#services" className={activeNav === "#services" ? "nav-link active-link" : "nav-link"} onClick={() => setActiveNav("#services")}>
+                            <HashLink to="#services" smooth={true} duration={500} className="nav-link" onClick={() => showMenu(false)}>
                                 <i className="bi bi-briefcase nav-icon"></i> Services
-                            </a>
+                            </HashLink>
                         </li>
 
                         <li className="nav-item">
-                            <a href="#portfolio" className={activeNav === "#portfolio" ? "nav-link active-link" : "nav-link"} onClick={() => setActiveNav("#portfolio")}>
+                            <Link to="/portfolio" smooth={false} className="nav-link" onClick={() => showMenu(false)}>
+                                <i className="bi bi-file-earmark-code nav-icon"></i> Portfolio
+                            </Link>
+                        </li>
+
+                        {/* <li className="nav-item">
+                            <a href="/portfolio" target="_blank" rel="noopener noreferrer" className="nav-link" onClick={() => showMenu(false)}>
                                 <i className="bi bi-file-earmark-code nav-icon"></i> Portfolio
                             </a>
-                        </li>
+                        </li> */}
 
                         <li className="nav-item">
-                            <a href="#contact" className={activeNav === "#contact" ? "nav-link active-link" : "nav-link"} onClick={() => setActiveNav("#contact")}>
+                            <Link to="/contact" smooth={true} duration={500} className="nav-link" onClick={() => showMenu(false)}>
                                 <i className="bi bi-envelope nav-icon"></i> Contact
-                            </a>
+                            </Link>
                         </li>
 
-                        <i className="bi bi-x nav-close" onClick={() => showMenu(!Toggle)}></i>
+                        <i className="bi bi-x nav-close" onClick={() => showMenu(false)}></i>
                     </ul>
                 </div>
 
