@@ -15,13 +15,13 @@
 .qualification-button {
     font-size: var(--r-size);
     font-weight: var(--font-medium);
-    color: var(--title-color);
+    color: var(--text-color);
     margin: 0 var(--mb-1);
     cursor: pointer;
 }
 
 .qualification-button:hover {
-    color: var(--title-color-dark);
+    color: var(--title-color);
 }
 
 .qualification-icon {
@@ -61,10 +61,12 @@
 .qualification-subtitle {
     display: inline-block;
     font-size: var(--s-size);
+    color: var(--text-color);
 }
 
 .qualification-calendar {
     font-size: var(--s-size);
+    color: var(--text-color);
 }
 
 .qualification-rounder {
