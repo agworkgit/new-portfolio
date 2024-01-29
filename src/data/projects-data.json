@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Travel Fanatix",
+        "description": "Donec congue ligula vel bibendum condimentum. Sed vel tempus est. Curabitur et nibh et arcu efficitur tempor. Praesent et semper sapien. Proin feugiat ipsum nec condimentum blandit. Phasellus at tellus sit amet libero viverra aliquam. Fusce quis luctus libero. Quisque purus odio, pellentesque eget mi nec, condimentum venenatis arcu. Cras erat nunc, aliquet in arcu ut, efficitur sollicitudin ex. Suspendisse hendrerit tincidunt enim, sit amet suscipit tellus bibendum vitae. Integer sit amet magna sit amet est pulvinar ultrices. Proin ipsum ipsum, tristique at ornare nec, malesuada non nisi.",
+        "image": "./src/assets/images/projects/travel-fanatix-demo.gif",
+        "linkDeployed": "https://agworkgit.github.io/travel-fanatix/",
+        "linkRepo": "https://github.com/agworkgit/travel-fanatix"
+    },
+    {
+        "id": 2,
+        "title": "Professional Readme Generator",
+        "description": "Donec congue ligula vel bibendum condimentum. Sed vel tempus est. Curabitur et nibh et arcu efficitur tempor. Praesent et semper sapien. Proin feugiat ipsum nec condimentum blandit. Phasellus at tellus sit amet libero viverra aliquam. Fusce quis luctus libero. Quisque purus odio, pellentesque eget mi nec, condimentum venenatis arcu. Cras erat nunc, aliquet in arcu ut, efficitur sollicitudin ex. Suspendisse hendrerit tincidunt enim, sit amet suscipit tellus bibendum vitae. Integer sit amet magna sit amet est pulvinar ultrices. Proin ipsum ipsum, tristique at ornare nec, malesuada non nisi.",
+        "image": "./src/assets/images/2.jpg",
+        "linkDeployed": "link",
+        "linkRepo": "link"
+    },
+    {
+        "id": 3,
+        "title": "Team Generator",
+        "description": "Donec congue ligula vel bibendum condimentum. Sed vel tempus est. Curabitur et nibh et arcu efficitur tempor. Praesent et semper sapien. Proin feugiat ipsum nec condimentum blandit. Phasellus at tellus sit amet libero viverra aliquam. Fusce quis luctus libero. Quisque purus odio, pellentesque eget mi nec, condimentum venenatis arcu. Cras erat nunc, aliquet in arcu ut, efficitur sollicitudin ex. Suspendisse hendrerit tincidunt enim, sit amet suscipit tellus bibendum vitae. Integer sit amet magna sit amet est pulvinar ultrices. Proin ipsum ipsum, tristique at ornare nec, malesuada non nisi.",
+        "image": "./src/assets/images/projects/team-page-demo.png",
+        "linkDeployed": "link",
+        "linkRepo": "link"
+    },
+    {
+        "id": 4,
+        "title": "Geolocation Weather Forecast App",
+        "description": "Donec congue ligula vel bibendum condimentum. Sed vel tempus est. Curabitur et nibh et arcu efficitur tempor. Praesent et semper sapien. Proin feugiat ipsum nec condimentum blandit. Phasellus at tellus sit amet libero viverra aliquam. Fusce quis luctus libero. Quisque purus odio, pellentesque eget mi nec, condimentum venenatis arcu. Cras erat nunc, aliquet in arcu ut, efficitur sollicitudin ex. Suspendisse hendrerit tincidunt enim, sit amet suscipit tellus bibendum vitae. Integer sit amet magna sit amet est pulvinar ultrices. Proin ipsum ipsum, tristique at ornare nec, malesuada non nisi.",
+        "image": "./src/assets/images/projects/geolocation-forecast-demo.gif",
+        "linkDeployed": "link",
+        "linkRepo": "link"
+    },
+    {
+        "id": 5,
+        "title": "JavaScript Quiz Web App",
+        "description": "Donec congue ligula vel bibendum condimentum. Sed vel tempus est. Curabitur et nibh et arcu efficitur tempor. Praesent et semper sapien. Proin feugiat ipsum nec condimentum blandit. Phasellus at tellus sit amet libero viverra aliquam. Fusce quis luctus libero. Quisque purus odio, pellentesque eget mi nec, condimentum venenatis arcu. Cras erat nunc, aliquet in arcu ut, efficitur sollicitudin ex. Suspendisse hendrerit tincidunt enim, sit amet suscipit tellus bibendum vitae. Integer sit amet magna sit amet est pulvinar ultrices. Proin ipsum ipsum, tristique at ornare nec, malesuada non nisi.",
+        "image": "./src/assets/images/5.gif",
+        "linkDeployed": "link",
+        "linkRepo": "link"
+    },
+    {
+        "id": 6,
+        "title": "Dragon Repeller - RPG Game",
+        "description": "Donec congue ligula vel bibendum condimentum. Sed vel tempus est. Curabitur et nibh et arcu efficitur tempor. Praesent et semper sapien. Proin feugiat ipsum nec condimentum blandit. Phasellus at tellus sit amet libero viverra aliquam. Fusce quis luctus libero. Quisque purus odio, pellentesque eget mi nec, condimentum venenatis arcu. Cras erat nunc, aliquet in arcu ut, efficitur sollicitudin ex. Suspendisse hendrerit tincidunt enim, sit amet suscipit tellus bibendum vitae. Integer sit amet magna sit amet est pulvinar ultrices. Proin ipsum ipsum, tristique at ornare nec, malesuada non nisi.",
+        "image": "./src/assets/images/projects/dragon-repeller-demo.png",
+        "linkDeployed": "link",
+        "linkRepo": "link"
+    }
+]
