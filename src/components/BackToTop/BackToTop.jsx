@@ -1,4 +1,5 @@
 import "./backtotop.css"
+import { HashLink } from 'react-router-hash-link';
 
 const BackToTop = () => {
     window.addEventListener("scroll", function () {
@@ -11,9 +12,9 @@ const BackToTop = () => {
     })
 
     return (
-        <a href="#" className="back-to-top">
+        <HashLink to="#" className="back-to-top">
             <i className="bi bi-arrow-up-circle-fill back-to-top-icon"></i>
-        </a>
+        </HashLink>
     )
 }
 
