@@ -164,8 +164,12 @@
         width: 100%;  
     }
 
+    .success-message {
+        width: 100%;
+    }
+
     #contact {
-        padding-bottom: 20rem;
+        padding-bottom: 30rem;
     }
   }
   
