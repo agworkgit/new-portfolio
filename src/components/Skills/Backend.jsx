@@ -5,59 +5,97 @@ const Backend = () => {
             <div className="skills-box">
                 <div className="skills-group">
                     <div className="skills-data">
-                    <i className="bi bi-patch-check"></i>
+                        <i className="bi bi-patch-check"></i>
 
-                    <div>
-                        <h3 className="skills-name">PHP</h3>
-                        <span className="skills-level">Basic</span>
-                    </div>
-                    </div>
-
-                    <div className="skills-data">
-                    <i className="bi bi-patch-check"></i>
-
-                    <div>
-                        <h3 className="skills-name">Node JS</h3>
-                        <span className="skills-level">Advanced</span>
-                    </div>
+                        <div>
+                            <h3 className="skills-name">CLI</h3>
+                            <span className="skills-level">Advanced</span>
+                        </div>
                     </div>
 
                     <div className="skills-data">
-                    <i className="bi bi-patch-check"></i>
+                        <i className="bi bi-patch-check"></i>
 
-                    <div>
-                        <h3 className="skills-name">Python</h3>
-                        <span className="skills-level">Basic</span>
+                        <div>
+                            <h3 className="skills-name">Node JS</h3>
+                            <span className="skills-level">Advanced</span>
+                        </div>
                     </div>
+
+                    <div className="skills-data">
+                        <i className="bi bi-patch-check"></i>
+
+                        <div>
+                            <h3 className="skills-name">Python</h3>
+                            <span className="skills-level">Basic</span>
+                        </div>
+                    </div>
+
+                    <div className="skills-data">
+                        <i className="bi bi-patch-check"></i>
+
+                        <div>
+                            <h3 className="skills-name">Express JS</h3>
+                            <span className="skills-level">Basic</span>
+                        </div>
+                    </div>
+
+                    <div className="skills-data">
+                        <i className="bi bi-patch-check"></i>
+
+                        <div>
+                            <h3 className="skills-name">Google Cloud Console</h3>
+                            <span className="skills-level">Basic</span>
+                        </div>
                     </div>
                 </div>
 
                 <div className="skills-group">
                     <div className="skills-data">
-                    <i className="bi bi-patch-check"></i>
+                        <i className="bi bi-patch-check"></i>
 
-                    <div>
-                        <h3 className="skills-name">MySQL</h3>
-                        <span className="skills-level">Basic</span>
-                    </div>
-                    </div>
-
-                    <div className="skills-data">
-                    <i className="bi bi-patch-check"></i>
-
-                    <div>
-                        <h3 className="skills-name">CLI</h3>
-                        <span className="skills-level">Advanced</span>
-                    </div>
+                        <div>
+                            <h3 className="skills-name">Debugging</h3>
+                            <span className="skills-level">Basic</span>
+                        </div>
                     </div>
 
                     <div className="skills-data">
-                    <i className="bi bi-patch-check"></i>
+                        <i className="bi bi-patch-check"></i>
 
-                    <div>
-                        <h3 className="skills-name">Firebase</h3>
-                        <span className="skills-level">Basic</span>
+                        <div>
+                            <h3 className="skills-name">Agile Development</h3>
+                            <span className="skills-level">Basic</span>
+                        </div>
                     </div>
+
+
+
+                    <div className="skills-data">
+                        <i className="bi bi-patch-check"></i>
+
+                        <div>
+                            <h3 className="skills-name">Version Control</h3>
+                            <span className="skills-level">Basic</span>
+                        </div>
+                    </div>
+
+                    <div className="skills-data">
+                        <i className="bi bi-patch-check"></i>
+
+                        <div>
+                            <h3 className="skills-name">Continuous Integration (CI)</h3>
+                            <span className="skills-level">Basic</span>
+                        </div>
+                    </div>
+
+                    <div className="skills-data">
+                        <i className="bi bi-patch-check"></i>
+
+                        <div>
+                            <h3 className="skills-name">Continuous Delivery (CD)</h3>
+                            <span className="skills-level">Basic</span>
+                        </div>
                     </div>
                 </div>
             </div>

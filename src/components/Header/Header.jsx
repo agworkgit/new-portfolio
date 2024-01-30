@@ -1,18 +1,30 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { ThemeContext } from "../../App";
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+
+import ReactSwitch from "react-switch";
 import "./header.css";
 
 const Header = () => {
     // Toggle Menu
-    const [Toggle, showMenu] = useState(false);
+    const [isMenuOpen, setMenuOpen] = useState(false);
+    const { toggleTheme, theme } = useContext(ThemeContext);
+
+    const handleMenuToggle = () => {
+        setMenuOpen((prevIsMenuOpen) => !prevIsMenuOpen);
+    };
+
+    const handleMenuClose = () => {
+        setMenuOpen(false);
+    };
 
     return (
         <header className="header">
             <nav className="nav container">
                 <Link to="/" smooth="true" duration={500} className="nav-logo">Alex Grigore</Link>
 
-                <div className={Toggle ? "nav-menu show-menu" : "nav-menu"}>
+                <div className={isMenuOpen ? "nav-menu show-menu" : "nav-menu"}>
                     <ul className="nav-list">
                         <li className="nav-item">
                             <Link to="/" smooth="true" duration={500} className="nav-link" onClick={() => showMenu(false)}>
@@ -44,23 +56,30 @@ const Header = () => {
                             </Link>
                         </li>
 
-                        {/* <li className="nav-item">
-                            <a href="/portfolio" target="_blank" rel="noopener noreferrer" className="nav-link" onClick={() => showMenu(false)}>
-                                <i className="bi bi-file-earmark-code nav-icon"></i> Portfolio
-                            </a>
-                        </li> */}
-
                         <li className="nav-item">
-                            <Link to="/contact" smooth="true" duration={500} className="nav-link" onClick={() => showMenu(false)}>
+                            <Link to="/contact" smooth="true" duration={500} className="nav-link" onClick={() => { handleMenuClose(); }}>
                                 <i className="bi bi-envelope nav-icon"></i> Contact
                             </Link>
                         </li>
-
-                        <i className="bi bi-x nav-close" onClick={() => showMenu(false)}></i>
                     </ul>
+
+                    {/* Close Menu Button */}
+                    {isMenuOpen && (
+                        <i className="bi bi-x nav-close" onClick={handleMenuClose}></i>
+                    )}
                 </div>
 
-                <div className="nav-toggle" onClick={() => showMenu(!Toggle)}>
+                {/* Theme Toggle */}
+                {!isMenuOpen && (
+                    <div className="switch-theme">
+                        <ReactSwitch
+                            onChange={toggleTheme}
+                            checked={theme === "dark"}
+                        ></ReactSwitch>
+                    </div>
+                )}
+
+                <div className="nav-toggle" onClick={handleMenuToggle}>
                     <i className="bi bi-list"></i>
                 </div>
             </nav>

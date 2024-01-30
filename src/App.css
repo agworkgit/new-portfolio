@@ -1,25 +1,18 @@
 /* Google Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
 /* Variables */
 
 #root {
   --header-height: 3rem;
 
-  /* Colors */
-
-  --hue: 0;
-  --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --contaier-color: #fff;
-
   /* Fonts */
-  --body-font: "Titillium Web", sans-serif;
-  --accent-font: "Podkova", serif;
+  --body-font: 'Victor Mono', monospace;
+  --accent-font: 'Quicksand', sans-serif;
+  --optional-font: 'Mulish', sans-serif;
 
   /* Font Size - 0.5rem = 8px; | 1rem = 16px */
   --xxxl-font: 3.5rem;
@@ -54,6 +47,35 @@
   --z-modal: 1000;
 }
 
+/* Light Colors */
+#light {
+  --title-color: #3a3ae3;
+  --title-color-dark: #1212DC;
+  --text-color: #272727;
+  --body-color: #E7E7E7 !important;
+  --icon-hover: #4e4e4e;
+  --contaier-color: #E7E7E7;
+  --border-color: rgba(58, 58, 227, 0.2);
+}
+
+/* Dark Colors */
+#dark {
+  --title-color: #FF5500;
+  --title-color-dark: #fb651b;
+  --text-color: #E7E7E7;
+  --body-color: #272727 !important;
+  --icon-hover: #4e4e4e;
+  --contaier-color: #272727;
+  --border-color: rgba(231, 231, 231, 0.4);
+}
+
+/* Theme Switcher */
+.switch-theme {
+  display: flex;
+  align-items: center;
+  transform: scale(0.80);
+}
+
 /* Responsive Typography */
 @media screen and (max-width: 992px) {
   :root {
@@ -77,26 +99,29 @@
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 *,
-body, 
-button, 
-input, 
+body,
+button,
+input,
 textarea {
   font-family: var(--body-font);
   font-size: var(--r-size);
 }
 
 body {
-  background-color: var(--body-color);
   color: var(--text-color);
+  background-color: var(--body-color) !important;
 }
 
-h1, h2, h3 {
-  font-family: var(--body-font);
+h1,
+h2,
+h3 {
+  font-family: var(--accent-font);
   color: var(--title-color);
-  font-weight: var(--font-semi-bold);
+  font-weight: var(--font-bold);
 }
 
 ul {
@@ -123,6 +148,7 @@ img {
 /* Reusable Classes */
 .section {
   padding: 6rem 0 2rem;
+  background-color: var(--body-color) !important;
 }
 
 .section-title {
@@ -155,6 +181,7 @@ img {
 
 /* Buttons */
 .button {
+  cursor: pointer;
   display: inline-block;
   background-color: var(--title-color);
   color: var(--contaier-color);
@@ -207,7 +234,6 @@ img {
 }
 
 @media screen and (max-width: 576px) {
-  
 }
 
 @media screen and (max-width: 350px) {

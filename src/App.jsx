@@ -1,9 +1,10 @@
 // import { useState } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './App.css'
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import * as bootstrap from 'bootstrap';
-// import ProjectGallery from './pages/ProjectGallery'
+import { createContext, useState, useEffect } from 'react';
+import './App.css';
+
+export const ThemeContext = createContext('dark');
+
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import About from './components/About/About';
@@ -17,8 +18,20 @@ import BackToTop from './components/BackToTop/BackToTop';
 import Portfolio from './pages/Portfolio/Portfolio';
 
 function App() {
+  const storedTheme = localStorage.getItem('theme') || 'dark'; // Adjust the default value if needed
+  const [theme, setTheme] = useState(storedTheme);
+
+  const toggleTheme = () => {
+    setTheme((current) => (current === 'dark' ? 'light' : 'dark'));
+  };
+
+  useEffect(() => {
+    localStorage.setItem('theme', theme);
+  }, [theme]);
+
   return (
-    <>
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      <div className='App' id={theme}>
         <Router basename="/new-portfolio/">
           <Header />
           <Routes>
@@ -30,25 +43,18 @@ function App() {
                 <Services />
                 <Qualification />
                 <Testimonials />
-                {/* <Contact /> */}
+                <Footer />
               </>
             } />
-            {/* <Route path="/about" element={<About />} /> */}
-            {/* <Route path="/skills" element={<Skills />} /> */}
-            {/* <Route path="/services" element={<Services />} /> */}
-            {/* <Route path="/qualification" element={<Qualification />} /> */}
-            {/* <Route path="/testimonials" element={<Testimonials />} /> */}
-
             <Route path="/contact" element={<Contact />} />
             <Route path="/portfolio" element={<Portfolio />} />
-
           </Routes>
 
           <BackToTop />
-          <Footer />
         </Router>
-    </>
+      </div>
+    </ThemeContext.Provider>
   );
 }
 
-export default App
+export default App;

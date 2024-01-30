@@ -20,28 +20,28 @@ const Contact = () => {
     return (
         <section className="contact section" id="contact">
             <h2 className="section-title">Contact</h2>
-            <span className="section-subtitle">Here&apos;s how you can get in touch with me</span>
+            <span className="section-subtitle">Here&apos;s a few ways you can contact me</span>
 
             <div className="contact-container container grid">
                 <div className="contact-content">
                     <h3 className="contact-title">Let&apos;s get in touch</h3>
 
                     <div className="contact-info">
-                        <div className="contact-card">
+                        {/* <div className="contact-card">
                             <i className="bi bi-send-plus contact-card-icon"></i>
                             <h3 className="contact-card-title">Email</h3>
                             <span className="contact-card-data"></span>
                             <a href="mailto:agworksbox@gmail.com" className="contact-button">
-                                Send me and email{" "}
+                                Send me an email{" "}
                                 <i className="bi bi-arrow-right-short contact-button-icon"></i>
                             </a>
-                        </div>
+                        </div> */}
 
                         <div className="contact-card">
                             <i className="bi bi-linkedin contact-card-icon"></i>
                             <h3 className="contact-card-title">LinkedIn</h3>
                             <span className="contact-card-data"></span>
-                            <a href="" className="contact-button">
+                            <a href="https://www.linkedin.com/in/alex-g-990137100/" className="contact-button" target={"_blank"} rel="noreferrer">
                                 Connect on LinkedIn{" "}
                                 <i className="bi bi-arrow-right-short contact-button-icon"></i>
                             </a>
@@ -51,7 +51,7 @@ const Contact = () => {
                             <i className="bi bi-twitter-x contact-card-icon"></i>
                             <h3 className="contact-card-title">X (formerly Twitter)</h3>
                             <span className="contact-card-data"></span>
-                            <a href="" className="contact-button">
+                            <a href="https://twitter.com/agworksbox" className="contact-button" target={"_blank"} rel="noreferrer">
                                 Connect on X{" "}
                                 <i className="bi bi-arrow-right-short contact-button-icon"></i>
                             </a>
@@ -69,7 +69,7 @@ const Contact = () => {
                                 name="name"
                                 id="name"
                                 className="contact-form-input"
-                                placeholder="Insert your name?" />
+                                placeholder="Insert your name" />
                         </div>
 
                         <div className="contact-form-container">
@@ -78,7 +78,7 @@ const Contact = () => {
                                 name="email"
                                 id="email"
                                 className="contact-form-input"
-                                placeholder="Insert your email address?" />
+                                placeholder="Insert your email address" />
                         </div>
 
                         <div className="contact-form-container">
@@ -89,7 +89,7 @@ const Contact = () => {
                                 cols={30}
                                 rows={10}
                                 className="contact-form-area contact-form-input"
-                                placeholder="What is your project?">
+                                placeholder="Tell me more about your project?">
                             </textarea>
                         </div>
                         <button type="submit" form="contact-form" className="button button-flex send-form-button">Send Message

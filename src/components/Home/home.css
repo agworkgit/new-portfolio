@@ -16,12 +16,15 @@
 }
 
 .home-social-icon {
-    font-size: 1.25rem;
     color: var(--title-color);
 }
 
 .home-social-icon:hover {
     color: var(--title-color-dark);
+}
+
+.social-icon-badge {
+    font-size: 1.5rem;
 }
 
 .home-title {
@@ -42,9 +45,9 @@
     position: absolute;
     width: 70px;
     height: 1px;
-    background-color: var(--text-color);
+    background-color: var(--title-color);
     left: 0;
-    top: 0.75rem;
+    top: 0.65rem;
 }
 
 .home-description {
@@ -122,7 +125,7 @@
 
     .home-subtitle::before {
         width: 42px;
-        top: 0.8rem;
+        top: 0.65rem;
     }
 
     .home-description {
@@ -144,7 +147,7 @@
   @media screen and (max-width: 768px) {
     .home-content {
         grid-template-rows: 0.5fr 3fr;
-        padding-top: 3.5rem;
+        padding-top: 0rem;
     }
 
     .home-image {

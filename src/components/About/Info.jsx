@@ -7,7 +7,7 @@ const Info = () => {
                 Experience
                 </h3>
                 <span className="about-subtitle">
-                10 Years    
+                9+ Years    
                 </span>
             </div>
 

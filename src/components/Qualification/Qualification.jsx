@@ -35,11 +35,12 @@ const Qualification = () => {
                         : "qualification-content"}>
                         <div className="qualification-data">
                             <div>
-                                <h3 className="qualification-title">Web Developer</h3>
-                                <span className="qualification-subtitle">Remote - edX</span>
+                                <h3 className="qualification-title">Frontend Web Development Certificate</h3>
+                                <span className="qualification-subtitle">London - edX</span>
                                 <div className="qualification-calendar">
+                                    Sep 2023 - Feb 2024 <br />
+                                    Grade: 100% <br />
                                     <i className="bi bi-calendar3"></i>
-                                    2020 - Present
                                 </div>
                             </div>
 
@@ -56,22 +57,24 @@ const Qualification = () => {
                                 <span className="qualification-line"></span>
                             </div>
                             <div>
-                                <h3 className="qualification-title">Front-End Developer</h3>
+                                <h3 className="qualification-title">React Basics Certificate</h3>
+                                <span className="qualification-subtitle">Remote - Meta</span>
+                                <div className="qualification-calendar">   
+                                    Jan 2024 - Jan 2024 <br />
+                                    Grade: 92% <br />
+                                    <i className="bi bi-calendar3"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="qualification-data">
+                            <div>
+                                <h3 className="qualification-title">Programming with JavaScript Certificate</h3>
                                 <span className="qualification-subtitle">Remote - Meta</span>
                                 <div className="qualification-calendar">
+                                    2020 - Present <br />
+                                    Grade: 96% <br />
                                     <i className="bi bi-calendar3"></i>
-                                    2030 - Present
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="qualification-data">
-                            <div>
-                                <h3 className="qualification-title">Full Stack Developer</h3>
-                                <span className="qualification-subtitle">Remote - FreeCodeCamp</span>
-                                <div className="qualification-calendar">
-                                    <i className="bi bi-calendar3"></i>
-                                    2020 - Present
                                 </div>
                             </div>
 
@@ -88,11 +91,46 @@ const Qualification = () => {
                                 <span className="qualification-line"></span>
                             </div>
                             <div>
-                                <h3 className="qualification-title">Full Stack Developer</h3>
-                                <span className="qualification-subtitle">Remote - The Odin Project</span>
-                                <div className="qualification-calendar">
+                                <h3 className="qualification-title">HTML and CSS in depth Certificate</h3>
+                                <span className="qualification-subtitle">Remote - Meta</span>
+                                <div className="qualification-calendar">        
+                                    Dec 2023 - Jan 2024 <br />
+                                    Grade: 88% <br />
                                     <i className="bi bi-calendar3"></i>
-                                    2030 - Present
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="qualification-data">
+                            <div>
+                                <h3 className="qualification-title">Version Control Certificate</h3>
+                                <span className="qualification-subtitle">Remote - Meta</span>
+                                <div className="qualification-calendar">
+                                    Dec 2023 - Jan 2024 <br />
+                                    Grade: 91.87% <br />
+                                    <i className="bi bi-calendar3"></i>
+                                </div>
+                            </div>
+
+                            <div>
+                                <span className="qualification-rounder"></span>
+                                <span className="qualification-line"></span>
+                            </div>
+                        </div>
+
+                        <div className="qualification-data">
+                            <div></div>
+                            <div>
+                                <span className="qualification-rounder"></span>
+                                <span className="qualification-line"></span>
+                            </div>
+                            <div>
+                                <h3 className="qualification-title">Introduction to Front-End Development Certificate</h3>
+                                <span className="qualification-subtitle">Remote - Meta</span>
+                                <div className="qualification-calendar">        
+                                    Dec 2023 - Dec 2023 <br />
+                                    Grade: 93.75% <br />
+                                    <i className="bi bi-calendar3"></i>
                                 </div>
                             </div>
                         </div>
@@ -103,11 +141,11 @@ const Qualification = () => {
                         : "qualification-content"}>
                         <div className="qualification-data">
                             <div>
-                                <h3 className="qualification-title">Web Developer</h3>
-                                <span className="qualification-subtitle">Remote - edX</span>
+                                <h3 className="qualification-title">Full Stack Engineer (Freelance)</h3>
+                                <span className="qualification-subtitle">Remote - The Odin Project</span>
                                 <div className="qualification-calendar">
+                                    Dec 2023 - Present <br />
                                     <i className="bi bi-calendar3"></i>
-                                    2020 - Present
                                 </div>
                             </div>
 
@@ -124,22 +162,22 @@ const Qualification = () => {
                                 <span className="qualification-line"></span>
                             </div>
                             <div>
-                                <h3 className="qualification-title">Web Designer</h3>
-                                <span className="qualification-subtitle">Paris - Institute</span>
+                                <h3 className="qualification-title">Business Development Manager (Full-Time)</h3>
+                                <span className="qualification-subtitle">London - VDC Trading</span>
                                 <div className="qualification-calendar">
+                                    Mar 2022 - Present <br />
                                     <i className="bi bi-calendar3"></i>
-                                    2030 - Present
                                 </div>
                             </div>
                         </div>
 
                         <div className="qualification-data">
                             <div>
-                                <h3 className="qualification-title">Frontend Developer</h3>
-                                <span className="qualification-subtitle">UK - Institute</span>
+                                <h3 className="qualification-title">Assistant Sales Manager (Full-Time)</h3>
+                                <span className="qualification-subtitle">London - Wolseley</span>
                                 <div className="qualification-calendar">
+                                    Jun 2021 - Mar 2022 <br />
                                     <i className="bi bi-calendar3"></i>
-                                    2020 - Present
                                 </div>
                             </div>
 
@@ -156,11 +194,43 @@ const Qualification = () => {
                                 <span className="qualification-line"></span>
                             </div>
                             <div>
-                                <h3 className="qualification-title">Graphic Designer</h3>
-                                <span className="qualification-subtitle">Paris - Institute</span>
-                                <div className="qualification-calendar">
+                                <h3 className="qualification-title">Music Producer/DJ (Freelance)</h3>
+                                <span className="qualification-subtitle">London & Remote - Mono Mode / Pitchpilot</span>
+                                <div className="qualification-calendar"> 
+                                    Mar 2020 - Jun 2021
                                     <i className="bi bi-calendar3"></i>
-                                    2030 - Present
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="qualification-data">
+                            <div>
+                                <h3 className="qualification-title">Sales Representative & Parts Advisor (Full-Time)</h3>
+                                <span className="qualification-subtitle">Reading - Mercedes-Benz</span>
+                                <div className="qualification-calendar">
+                                    Oct 2018 - Mar 2020 <br />
+                                    <i className="bi bi-calendar3"></i>
+                                </div>
+                            </div>
+
+                            <div>
+                                <span className="qualification-rounder"></span>
+                                <span className="qualification-line"></span>
+                            </div>
+                        </div>
+
+                        <div className="qualification-data">
+                            <div></div>
+                            <div>
+                                <span className="qualification-rounder"></span>
+                                <span className="qualification-line"></span>
+                            </div>
+                            <div>
+                                <h3 className="qualification-title">Sales Advisor & Customer Support (Full-Time)</h3>
+                                <span className="qualification-subtitle">Birmingham - Vertu Motors PLC</span>
+                                <div className="qualification-calendar"> 
+                                    Mar 2015 - Apr 2018
+                                    <i className="bi bi-calendar3"></i>
                                 </div>
                             </div>
                         </div>

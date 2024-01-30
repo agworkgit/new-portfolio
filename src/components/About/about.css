@@ -4,12 +4,12 @@
 
 .about-container {
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+    /* align-items: center; */
     column-gap: 4rem;
 }
 
 .about-image {
-    height: 100%;
+    height: auto;
     width: auto;
     border-radius: 1.5rem;
     justify-self: center;
@@ -23,7 +23,7 @@
 
 .about-box {
     background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;

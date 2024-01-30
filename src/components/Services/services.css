@@ -10,7 +10,7 @@
 
 .services-content {
     position: relative;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
     background-color: var(--contaier-color);
     padding: 6rem 0 2rem 2.5rem;
 }
@@ -29,7 +29,7 @@
 }
 
 .services-button {
-    color: var(--title-color);
+    color: var(--text-color);
     font-size: var(--s-size);
     display: inline-flex;
     align-items: center;
@@ -52,7 +52,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--border-color);
     z-index: var(--z-modal);
     display: flex;
     justify-content: center;
@@ -78,6 +78,13 @@
     font-size: 1.5rem;
     color: var(--title-color);
     cursor: pointer;
+    background-color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 0.5rem;
+    padding-block: 0.5rem;
+    border-radius: 50px;
 }
 
 .services-modal-title, .services-modal-description {
@@ -85,15 +92,16 @@
 }
 
 .services-modal-title {
-    font-size: var(--h3-font-size);
+    font-size: var(--xl-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1);
 }
 
 .services-modal-description {
-    font-size: var(--s-size);
+    font-size: var(--xs-size);
     padding: 0 3.5rem;
     margin-bottom: var(--mb-2);
+    color: var(--title-color);
 }
 
 .services-modal-services {
@@ -112,7 +120,8 @@
 }
 
 .services-modal-info {
-    font-size: var(--s-size);
+    font-size: var(--xs-size);
+    color: var(--text-color);
 }
 
 /* Active Modal */

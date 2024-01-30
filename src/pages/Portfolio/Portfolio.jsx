@@ -10,7 +10,7 @@ const Portfolio = () => {
 
     return (
     <div>
-        <div>
+        <div className="project-container container grid">
             {projectsData.map((project) => {
                 return <Project key={project.id} title={project.title} description={project.description} image={project.image} linkDeployed={project.linkDeployed}
                 linkRepo={project.linkRepo}/>

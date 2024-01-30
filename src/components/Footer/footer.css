@@ -1,6 +1,6 @@
 .footer {
     background-color: var(--contaier-color);
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid var(--border-color);
 }
 
 .footer-container {
@@ -15,6 +15,10 @@
     font-size: var(--xl-size);
     text-align: center;
     margin-bottom: var(--mb-2);
+}
+
+.footer-link {
+    font-size: var(--r-size);
 }
 
 .footer-link:hover {
@@ -38,9 +42,12 @@
     background-color: var(--title-color);
     color: var(--contaier-color);
     font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-inline: 0.75rem;
-    padding-block: 0.25rem;
-    border-radius: 15rem;
+    padding-block: 0.5rem;
+    border-radius: 50px;
 }
 
 .footer-social-link:hover {
@@ -58,9 +65,12 @@
 /* Breakpoints */
 @media screen and (max-width: 992px) {
    .footer-social-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding-inline: 0.75rem;
-        padding-block: 0.25rem;
-        border-radius: 15rem;
+        padding-block: 0.5rem;
+        border-radius: 50px;
    } 
   }
 
