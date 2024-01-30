@@ -83,8 +83,12 @@ const Header = () => {
                 <ReactSwitch
                   onChange={toggleTheme}
                   checked={theme === "dark"}
-                  onColor="#4e4e4e"
+                  onColor="#ff7028"
+                  offColor="#3a3ae3"
+                  onHandleColor="#272727"
                   activeBoxShadow="0 0 2px 3px #272"
+                  uncheckedIcon=""
+                  checkedIcon=""
                 ></ReactSwitch>
               </div>
             )}
