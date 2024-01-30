@@ -86,7 +86,7 @@ const Header = () => {
                   onColor="#ff7028"
                   offColor="#3a3ae3"
                   onHandleColor="#272727"
-                  activeBoxShadow="0 0 2px 3px #272"
+                  activeBoxShadow='0 0 2px 3px #3bf'
                   uncheckedIcon=""
                   checkedIcon=""
                 ></ReactSwitch>
