@@ -1,8 +1,15 @@
+.portfolio-container {
+    background-color: var(--body-color);
+}
+
 .project-container {
-    margin-top: var(--mb-3);
-    grid-template-columns: repeat(1, 1fr);
+    padding-top: var(--mb-3);
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
     /* align-items: center; */
-    column-gap: 4rem;
+    column-gap: 2.5rem;
+    background-color: var(--body-color) !important;
+    max-width: 968px;
 }
 
 .project-container:last-child {
@@ -11,31 +18,33 @@
 }
 
 .project-card {
-    background-color: var(--body-color);
-    border-radius: 0.75rem;
+    background-color: var(--icon-hover);
+    border-radius: 1.5rem;
     text-align: left;
-    padding: 1rem 1.25rem;
+    padding-bottom: 1rem;
+    padding-inline: 1rem;
 }
 
 .project-title {
-    color: var(--title-color);
+    color: var(--text-color);
     margin-bottom: var(--mb-1);
     font-size: var(--xl-size);
 }
 
 .project-subtitle {
     color: var(--text-color);
+    font-size: var(--s-size);
     padding-block: 1rem;
     margin-bottom: var(--mb-1);
 }
 
 .project-image {
-    height: 50vh;
+    height: 25vh;
     width: 100%;
     object-fit: cover;
     object-position: top;
     background-repeat: no-repeat;
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
     justify-self: center;
     margin-block: var(--mb-1);
 }
@@ -48,9 +57,10 @@
 .project-deployed-button, 
 .project-repo-button {
     cursor: pointer;
-    width: 48.5%;
+    width: 46.5%;
     font-size: var(--xs-size);
     color: var(--body-color);
+    background-color: var(--title-color);
 }
 
 .dep-icon, .rep-icon {
@@ -59,6 +69,11 @@
 
 /* Breakpoints */
 @media screen and (max-width: 992px) {
+    .container {
+        margin-inline: 0;
+        padding-inline: 3rem;
+    }
+
     .project-container {
         grid-template-columns: 1fr;
         row-gap: 2.5rem;
@@ -102,5 +117,19 @@
     width: 100%;
     font-size: var(--xs-size);
     justify-content: center;
-}
+    }
+
+    .project-container {
+        padding-top: var(--mb-1);
+        padding-inline: var(--mb-1);
+        grid-template-columns: 1fr;
+        /* align-items: center; */
+        column-gap: 0rem;
+        background-color: var(--body-color) !important;
+    }
+    
+    .project-container:last-child {
+        margin-bottom: 3rem;
+        padding-bottom: 3rem;
+    }
   }

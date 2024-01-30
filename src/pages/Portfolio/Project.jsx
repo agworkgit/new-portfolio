@@ -5,8 +5,9 @@ function Project(props) {
     return (
     <div className="project-container">
     <div className="project-card">
-        <h2 className="project-title">{props.title}</h2>
+        
         <img src={props.image} className="project-image"></img>
+        <h2 className="project-title">{props.title}</h2>
         <p className="project-subtitle">{props.description}</p>
         
         <a href={props.linkDeployed} target="_blank" rel="noreferrer" className="button button-flex project-deployed-button">

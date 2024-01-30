@@ -2,6 +2,13 @@
     margin-left: 6px;
 }
 
+.bi-check-circle {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    color: var(--title-color);
+}
+
 .contact-container {
     grid-template-columns: repeat(2, max-content);
     justify-content: center;
@@ -113,6 +120,16 @@
 
 .send-form-button {
     margin-top: 6.5rem;
+}
+
+.success-message {
+    color: var(--text-color);
+    margin-block: 1.5rem;
+    padding: 10px;
+    border-radius: 1rem;
+    width: 360px;
+    border: 1px solid var(--title-color);
+    transition: all 0.4s ease-in-out;
 }
 
 /* Breakpoints */
