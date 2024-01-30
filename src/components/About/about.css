@@ -82,7 +82,7 @@
   
   @media screen and (max-width: 576px) {
     .about-info {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 110px);
     }
 
     .about-description {
