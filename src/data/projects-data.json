@@ -35,7 +35,7 @@
         "id": 5,
         "title": "JavaScript Quiz Web App",
         "description": "A timed quiz web app so that the users can test their coding skills. This is a graded assignment for module six of edX's Skills Boot Camp in Front-End Web Development.",
-        "image": "./assets/images/projects/projects/quiz-demo.gif",
+        "image": "./assets/images/projects/quiz-demo.gif",
         "linkDeployed": "https://agworkgit.github.io/quiz-web-app/",
         "linkRepo": "https://github.com/agworkgit/quiz-web-app"
     },
