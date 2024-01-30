@@ -27,37 +27,37 @@ const Header = () => {
                 <div className={isMenuOpen ? "nav-menu show-menu" : "nav-menu"}>
                     <ul className="nav-list">
                         <li className="nav-item">
-                            <Link to="/" smooth="true" duration={500} className="nav-link" onClick={() => showMenu(false)}>
+                            <Link to="/" smooth="true" duration={500} className="nav-link" onClick={handleMenuClose}>
                                 <i className="bi bi-house nav-icon"></i> Home
                             </Link>
                         </li>
 
                         <li className="nav-item">
-                            <HashLink to="#about" smooth="true" duration={500} className="nav-link" onClick={() => showMenu(false)}>
+                            <HashLink to="#about" smooth="true" duration={500} className="nav-link" onClick={handleMenuClose}>
                                 <i className="bi bi-person-circle nav-icon"></i> About
                             </HashLink>
                         </li>
 
                         <li className="nav-item">
-                            <HashLink to="#skills" smooth="true" duration={500} className="nav-link" onClick={() => showMenu(false)}>
+                            <HashLink to="#skills" smooth="true" duration={500} className="nav-link" onClick={handleMenuClose}>
                                 <i className="bi bi-tools nav-icon"></i> Skills
                             </HashLink>
                         </li>
 
                         <li className="nav-item">
-                            <HashLink to="#services" smooth="true" duration={500} className="nav-link" onClick={() => showMenu(false)}>
+                            <HashLink to="#services" smooth="true" duration={500} className="nav-link" onClick={handleMenuClose}>
                                 <i className="bi bi-briefcase nav-icon"></i> Services
                             </HashLink>
                         </li>
 
                         <li className="nav-item">
-                            <Link to="/portfolio" smooth="false" className="nav-link" onClick={() => showMenu(false)}>
+                            <Link to="/portfolio" smooth="false" className="nav-link" onClick={handleMenuClose}>
                                 <i className="bi bi-file-earmark-code nav-icon"></i> Portfolio
                             </Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link to="/contact" smooth="true" duration={500} className="nav-link" onClick={() => { handleMenuClose(); }}>
+                            <Link to="/contact" smooth="true" duration={500} className="nav-link" onClick={handleMenuClose}>
                                 <i className="bi bi-envelope nav-icon"></i> Contact
                             </Link>
                         </li>
