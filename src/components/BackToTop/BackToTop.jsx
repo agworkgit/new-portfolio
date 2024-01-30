@@ -10,7 +10,7 @@ const BackToTop = () => {
         const backToTop = document.querySelector(".back-to-top");
 
         // Checking if the vertical scroll position is greater than or equal to 560
-        (this.scrollY >= 560) 
+        (this.scrollY >= 4100) 
         ? backToTop.classList.add("show-scroll") // Adding a class to show the BackToTop button
         : backToTop.classList.remove("show-scroll"); // Removing the class to hide the BackToTop button
 

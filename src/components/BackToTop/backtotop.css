@@ -36,7 +36,12 @@
 
   @media screen and (max-width: 768px) {
     .show-scroll {
-        bottom: 4rem;
+        bottom: 5rem;
+        right: 1.5rem;
+    }
+
+    .back-to-top-icon {
+        font-size: var(--xxl-size);
     }
   }
   

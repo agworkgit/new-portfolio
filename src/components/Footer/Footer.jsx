@@ -1,5 +1,6 @@
 import "./footer.css"
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
     return (
@@ -9,9 +10,9 @@ const Footer = () => {
 
                 <ul className="footer-list">
                     <li>
-                        <Link to="/#about" smooth="true" duration={500} className="footer-link">
+                        <HashLink to="/#about" smooth="true" duration={500} className="footer-link">
                         About
-                        </Link>
+                        </HashLink>
                     </li>
 
                     <li>
@@ -21,9 +22,9 @@ const Footer = () => {
                     </li>
 
                     <li>
-                    <Link to="/#testimonials" smooth="true" duration={500} className="footer-link">
+                    <HashLink to="/#testimonials" smooth="true" duration={500} className="footer-link">
                         Testimonials
-                        </Link>
+                        </HashLink>
                     </li>
                 </ul>
 
