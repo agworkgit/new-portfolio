@@ -6,7 +6,7 @@
     display: flex;
     justify-content: flex-end;
     margin-top: 1rem;
-    color: var(--title-color);
+    color: var(--success-color);
 }
 
 .contact-container {
@@ -123,12 +123,13 @@
 }
 
 .success-message {
-    color: var(--text-color);
+    color: var(--success-color);
+    background-color: var(--body-muted-color);
     margin-block: 1.5rem;
     padding: 10px;
     border-radius: 1rem;
     width: 360px;
-    border: 1px solid var(--title-color);
+    border: 2px solid var(--success-color);
     transition: all 0.4s ease-in-out;
 }
 

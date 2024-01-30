@@ -76,9 +76,9 @@
     top: 1.5rem;
     right: 1.5rem;
     font-size: 1.5rem;
-    color: var(--title-color);
+    color: var(--body-muted-color);
     cursor: pointer;
-    background-color: var(--text-color);
+    background-color: var(--title-color);
     display: flex;
     justify-content: center;
     align-items: center;
