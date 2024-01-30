@@ -120,8 +120,8 @@
     }
 
     .project-container {
-        padding-top: var(--mb-1);
-        padding-inline: var(--mb-1);
+        padding-top: var(--mb-0-5);
+        padding-inline: var(--mb-0-5);
         grid-template-columns: 1fr;
         /* align-items: center; */
         column-gap: 0rem;

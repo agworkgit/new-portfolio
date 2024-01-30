@@ -79,9 +79,9 @@
     bottom: 0;
   }
 
-  .container {
+  /* .container {
     padding: 2rem !important;
-  }
+  } */
 
   .nav {
     height: calc(var(--header-height) + 0.75rem);

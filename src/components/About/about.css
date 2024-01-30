@@ -4,7 +4,7 @@
 
 .about-container {
     grid-template-columns: repeat(2, 1fr);
-    /* align-items: center; */
+    justify-content: center;
     column-gap: 4rem;
 }
 
@@ -86,7 +86,7 @@
     }
 
     .about-description {
-        padding: 0;
+        padding: 1rem;
     }
   }
   
