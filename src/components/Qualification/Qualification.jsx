@@ -197,7 +197,7 @@ const Qualification = () => {
                                 <h3 className="qualification-title">Music Producer/DJ (Freelance)</h3>
                                 <span className="qualification-subtitle">London & Remote - Mono Mode / Pitchpilot</span>
                                 <div className="qualification-calendar"> 
-                                    Mar 2020 - Jun 2021
+                                    Mar 2020 - Jun 2021 <br />
                                     <i className="bi bi-calendar3"></i>
                                 </div>
                             </div>
@@ -229,7 +229,7 @@ const Qualification = () => {
                                 <h3 className="qualification-title">Sales Advisor & Customer Support (Full-Time)</h3>
                                 <span className="qualification-subtitle">Birmingham - Vertu Motors PLC</span>
                                 <div className="qualification-calendar"> 
-                                    Mar 2015 - Apr 2018
+                                    Mar 2015 - Apr 2018 <br />
                                     <i className="bi bi-calendar3"></i>
                                 </div>
                             </div>
