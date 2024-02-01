@@ -28,7 +28,8 @@
     "react-switch": "^7.0.0",
     "sort-by": "^1.2.0",
     "swiper": "^11.0.5",
-    "use-local-storage": "^3.0.0"
+    "use-local-storage": "^3.0.0",
+    "vite-plugin-favicons-inject": "^2.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
