@@ -22,7 +22,7 @@ const Contact = () => {
                 setShowSuccessMessage(true);
                 setTimeout(() => {
                     setShowSuccessMessage(false);
-                }, 5000);
+                }, 15000);
             }, (error) => {
                 // Logging the error if the email sending fails
                 console.log(error.text);
@@ -112,17 +112,23 @@ const Contact = () => {
                         </button>
 
                         {/* Showing success message if the email is sent successfully */}
-                    {showSuccessMessage && (
-                        <p className="success-message">
-                            Your message was sent. I will get back to you as soon as possible.
-                            <br />
-                            {/* Check mark icon for visual confirmation */}
-                            <i className="bi bi-check-circle"></i>
-                        </p>
-                    )}
+                        {showSuccessMessage && (
+                            <p className="success-message">
+                                Your message was sent. I will get back to you as soon as possible.
+                                <br />
+                                {/* Check mark icon for visual confirmation */}
+                                <i className="bi bi-check-circle"></i>
+                            </p>
+                        )}
+                        {/* Inserting space that message will take up when visible */}
+                        {!showSuccessMessage && (
+                            <div className="success-message-empty"></div>
+                        )}
                     </form>
+
                 </div>
             </div>
+
         </section>
     )
 }

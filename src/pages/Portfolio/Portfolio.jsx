@@ -2,7 +2,6 @@ import "./portfolio.css";
 import Project from "./Project";
 import projectsData from "../../data/projects-data.json"
 import { useEffect } from "react";
-import { HashLink } from 'react-router-hash-link';
 
 const Portfolio = () => {
     useEffect(()=>{
@@ -11,16 +10,12 @@ const Portfolio = () => {
 
     return (
     <div className="portfolio-container">
-        <div className="project-container grid">
+        <div className="project-container container grid">
             {projectsData.map((project) => {
-                return <Project key={project.id} title={project.title} description={project.description} image={project.image} linkDeployed={project.linkDeployed}
+                return <Project key={project.id} title={project.title} description={project.description} purpose={project.purpose} problems={project.problems} lessons={project.lessons} techStack={project.techStack} image={project.image} linkDeployed={project.linkDeployed}
                 linkRepo={project.linkRepo}/>
             })}
         </div>
-        {/* Add HashLink components for in-page navigation
-        <HashLink to="/#about"></HashLink>
-        <HashLink to="/#skills"></HashLink>
-        <HashLink to="/#services"></HashLink> */}
     </div>
     )
 }
