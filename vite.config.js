@@ -6,6 +6,6 @@ import vitePluginFaviconsInject from 'vite-plugin-favicons-inject';
 export default defineConfig({
   base: "/new-portfolio/",
   plugins: [react(
-    vitePluginFaviconsInject('./public/icons/favicon.png')
+    vitePluginFaviconsInject('/public/icons/favicon.png')
   )],
 })
