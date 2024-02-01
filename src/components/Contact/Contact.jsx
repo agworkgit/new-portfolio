@@ -25,7 +25,7 @@ const Contact = () => {
                 setShowSuccessMessage(true);
                 setTimeout(() => {
                     setShowSuccessMessage(false);
-                }, 15000);
+                }, 5000);
             }, (error) => {
                 // Logging the error if the email sending fails
                 console.log(error.text);
