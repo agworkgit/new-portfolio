@@ -12,7 +12,16 @@ const Portfolio = () => {
     <div className="portfolio-container">
         <div className="project-container container grid">
             {projectsData.map((project) => {
-                return <Project key={project.id} title={project.title} description={project.description} purpose={project.purpose} problems={project.problems} lessons={project.lessons} techStack={project.techStack} image={project.image} linkDeployed={project.linkDeployed}
+                return <Project 
+                key={project.id} 
+                title={project.title} 
+                description={project.description} 
+                purpose={project.purpose} 
+                problems={project.problems} 
+                lessons={project.lessons} 
+                techStack={project.techStack} 
+                image={project.image} 
+                linkDeployed={project.linkDeployed}
                 linkRepo={project.linkRepo}/>
             })}
         </div>

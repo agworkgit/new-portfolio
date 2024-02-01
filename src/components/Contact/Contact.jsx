@@ -1,10 +1,13 @@
 // Importing necessary styles, React hooks, and emailjs library
 import "./contact.css"
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 
 // Functional component for the Contact section
 const Contact = () => {
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+      },[])
     // Creating a reference for the form and state for showing success message
     const form = useRef();
     const [showSuccessMessage, setShowSuccessMessage] = useState(false);
