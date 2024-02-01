@@ -5,10 +5,11 @@
 
 .footer-container {
     padding: 2rem 0 6rem;
+    height: 18.5rem;
 }
 
 .footer-title, .footer-link {
-    color: var(--title-color);
+    color: var(--text-color);
 }
 
 .footer-title {
@@ -39,7 +40,7 @@
 }
 
 .footer-social-link {
-    background-color: var(--title-color);
+    background-color: var(--text-color);
     color: var(--contaier-color);
     font-size: 1.25rem;
     display: flex;
@@ -75,7 +76,9 @@
   }
 
   @media screen and (max-width: 768px) {
- 
+    .footer-container {
+        padding: 2rem 0 12rem;
+    }
   }
   
   @media screen and (max-width: 576px) {
