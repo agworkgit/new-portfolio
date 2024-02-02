@@ -133,10 +133,6 @@
   }
   
   @media screen and (max-width: 768px) {
-    .project-repo-button {
-        /* margin-top: var(--mb-0-75); */
-    }
-
     .project-deployed-button, 
     .project-repo-button {
     cursor: pointer;
@@ -164,10 +160,6 @@
   }
   
   @media screen and (max-width: 700px) {
-    .project-repo-button {
-        /* margin-top: var(--mb-0-75); */
-    }
-
     .project-image {
         height: auto;
     }

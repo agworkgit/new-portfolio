@@ -1,4 +1,5 @@
 import "./portfolio.css"
+/* eslint-disable react/prop-types */
 
 function Project(props) {
     //Body

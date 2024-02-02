@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import { ThemeContext } from "../../App";
 import { Link } from 'react-router-dom';
-import { animateScroll as scroll, scroller } from "react-scroll";
+import { animateScroll as scroller } from "react-scroll";
 
 import ReactSwitch from "react-switch";
 import "./header.css";
