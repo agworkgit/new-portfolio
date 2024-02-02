@@ -1,7 +1,7 @@
 # Alex Grigore - React Portfolio
 
 ## Description
-My motivation was to use my React and NPM skills to create a beautiful and detailed portfolio site.
+My motivation was to use my React and NPM skills to create a beautiful and detailed portfolio site and host it online via Netlify.
 This React-powered portfolio isn't just a showcase – it's my digital canvas where creativity meets innovation. Join me on a journey through sleek design, interactive elements, and a touch of my own personality.
 
 ## Table of Contents
@@ -26,7 +26,7 @@ The following image shows my portfolio's appearance and functionality:
 
 > **Note**: This layout is designed to be responsive and offers theme change.
 
-The following link will take you to the deployed site <https://agworkgit.github.io/new-portfolio/>
+The following link will take you to the deployed site <https://alex-grigore.netlify.app/>
 
 
 ## Tests
@@ -51,4 +51,4 @@ This project is licensed under the MIT License.
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
