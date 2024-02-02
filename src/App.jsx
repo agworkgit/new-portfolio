@@ -34,7 +34,7 @@ export const App = () => {
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
   <div className='App' id={theme}>
-    <Router basename="/new-portfolio/">
+    <Router basename="/">
       <Header />
       <Routes>
         <Route
